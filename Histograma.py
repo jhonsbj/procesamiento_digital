@@ -10,9 +10,9 @@ plt.show()
 ancho = len(img[0])
 largo = len(img)
 histograma = []
-histograma_r = []
-histograma_g = []
-histograma_b = []
+histograma_red = []
+histograma_green = []
+histograma_blue = []
 
 
 for i in range(ancho):
@@ -20,9 +20,9 @@ for i in range(ancho):
         histograma.append(img[i,j,0])
         histograma.append(img[i,j,1])
         histograma.append(img[i,j,2])
-        histograma_r.append(img[i,j,0])
-        histograma_g.append(img[i,j,1])    
-        histograma_b.append(img[i,j,2])
+        histograma_red.append(img[i,j,0])
+        histograma_green.append(img[i,j,1])    
+        histograma_blue.append(img[i,j,2])
 
 plt.hist(histograma, 5, facecolor='red')
 plt.ylabel('Frequencia')
