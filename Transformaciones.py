@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-imagen=cv.imread("lena.png",0) 
+imagen=cv.imread("pubg.png",0) 
 
 temp = np.copy(imagen)
 mx = len(temp)-1
