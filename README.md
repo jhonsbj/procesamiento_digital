@@ -1,2 +1,2 @@
 # Procesamiento-Digital
-Python
+Manipulación de imagenes con Python
