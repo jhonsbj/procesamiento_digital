@@ -1,2 +1,2 @@
 # imagendigitial
-Repositorio para la materia Procesamiento de Imagen Digital IESAC
+Ejercicios resueltos de la materia Procesamiento digital de imagenes.
